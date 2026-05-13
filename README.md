@@ -27,3 +27,36 @@ and its impact on purchasing behaviour.
 
 ## Dashboard Preview
 <img width="2084" height="1520" alt="final_dashboard" src="https://github.com/user-attachments/assets/54b930d6-51e4-4680-b0fd-ee4c3ddf55b3" />
+
+
+
+
+
+
+# GenAI Consumer Sentiment & Purchasing Behaviour Analyser (v2.0) 🚀
+
+This project is a full-stack AI application that analyzes 500+ Amazon Food reviews to uncover the relationship between customer sentiment and purchasing behavior (churn vs. repurchase).
+
+## 🌟 What's New in v2.0
+I have upgraded this project from a collection of analysis scripts into a **production-ready dashboard**:
+- **Interactive Analytics:** A React-based dashboard for real-time data exploration.
+- **AI Sentiment Lab:** An integrated inference tool that predicts sentiment for custom reviews using LLMs.
+- **SQLite Integration:** Moved from flat CSVs to a relational database for high-performance querying.
+
+## 📊 Key Insights
+- **Sentiment vs. Churn:** 95.6% of positive sentiment customers repurchased, while 52.6% of negative sentiment customers churned.
+- **The "Hidden Signal":** Identified a **20.5% mismatch** where star ratings failed to capture the true emotional sentiment of the written review.
+
+## 🛠️ Tech Stack
+- **Frontend:** React, Tailwind CSS, Recharts, Lucide Icons
+- **Backend:** Python (stateless RPC), SQLite
+- **AI Models:** HuggingFace RoBERTa (Base Analysis) & Gemini 2.5 Flash (Inference Lab)
+
+## 📂 Project Structure
+- `/frontend`: React application, UI components, and interactive charts.
+- `/backend`: Python API handlers and SQLite database management.
+
+## 🚀 Running Locally
+1. Clone the repo.
+2. **Backend:** `cd backend && pip install -r requirements.txt && python main.py`
+3. **Frontend:** `cd frontend && npm install && npm run dev`
