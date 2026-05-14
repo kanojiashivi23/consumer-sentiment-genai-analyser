@@ -31,8 +31,6 @@ and its impact on purchasing behaviour.
 
 
 
-
-
 # GenAI Consumer Sentiment & Purchasing Behaviour Analyser (v2.0) 🚀
 
 This project is a full-stack AI application that analyzes 500+ Amazon Food reviews to uncover the relationship between customer sentiment and purchasing behavior (churn vs. repurchase).
